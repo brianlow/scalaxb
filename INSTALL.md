@@ -41,7 +41,7 @@ This way our Ivy cache won't be confused when the official builds are released.
 
 Build, and publish it locally.
 
-    $ sbt "project app" "so publish-local"
+    $ sbt app/publish-local
 
 Finally, install it using conscript.
 
